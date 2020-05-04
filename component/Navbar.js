@@ -49,8 +49,8 @@ const Navbar = () => (
  background-color: #262626!important;
 
 .navbar-item{
-    font-family: "helvetica 65 medium",sans-serif
-    font-size: 12px;
+    font-family: "helvetica 65 medium",sans-serif;
+    font-size: 14px;
     padding-right: 25px;
     padding-left: 25px;
 }

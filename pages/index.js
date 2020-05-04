@@ -18,7 +18,11 @@ export default function Home() {
 
 
       </Head>
-     
+      <style jsx>{`
+      
+    
+
+`}</style>
     </div>
   )
 }
