@@ -17,7 +17,12 @@ const Homepage = () => (
         animation-name: test;
         animation-duration: 6s;
         animation-iteration-count: infinite;
-        background-image: url(https://colorlib.com/preview/theme/instylr/img/slider/1.jpg);
+        background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.02),
+            rgba(218, 173, 165, 0.29)
+          ),
+          url(https://colorlib.com/preview/theme/instylr/img/slider/1.jpg);
 
         background-repeat: no-repeat;
         background-position: center top;
@@ -25,10 +30,20 @@ const Homepage = () => (
 
       @keyframes test {
         0% {
-          background-image: url(https://colorlib.com/preview/theme/instylr/img/slider/1.jpg);
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.02),
+              rgba(218, 173, 165, 0.29)
+            ),
+            url(https://colorlib.com/preview/theme/instylr/img/slider/1.jpg);
         }
         25% {
-          background-image: url(https://colorlib.com/preview/theme/instylr/img/slider/2.jpg);
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.02),
+              rgba(0, 0, 14, 0)
+            ),
+            url(' https://colorlib.com/preview/theme/instylr/img/slider/2.jpg');
         }
       }
 
