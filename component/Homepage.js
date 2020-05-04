@@ -14,7 +14,7 @@ const Homepage = () => (
   background-image: url(https://colorlib.com/preview/theme/instylr/img/slider/1.jpg);
   height: 40rem;
   background-repeat: no-repeat;
-    background-position:center;
+  background-position: center top;
 }
 
 @keyframes example {
