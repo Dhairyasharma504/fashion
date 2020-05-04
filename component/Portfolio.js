@@ -27,6 +27,7 @@ const Portfolio = () => (
       .image {
       }
       .image:hover {
+        opacity: 0.5;
         border: 10px solid black;
         transition: 0.5s ease;
       }
