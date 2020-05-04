@@ -1,31 +1,35 @@
 const Portfolio = () => (
   <div className="wrapper">
-    <body>
-      <section className="section">
-        <div className="container">
-          <div className="columns">
-            <div className="column">
-              <img
-                src="https://colorlib.com/preview/theme/instylr/img/portfolio/1.jpg"
-                alt="Girl in a jacket"
-              />
+    <section className="section">
+      <div className="container">
+        <div className="columns">
+          <div className="column">
+            <div className="image ">
+              <img src="https://colorlib.com/preview/theme/instylr/img/portfolio/1.jpg" />
             </div>
-            <div className="column">
-              <img
-                src="https://colorlib.com/preview/theme/instylr/img/portfolio/2.jpg"
-                alt="Girl in a jacket"
-              />
+          </div>
+
+          <div className="column">
+            <div className="image ">
+              <img src="https://colorlib.com/preview/theme/instylr/img/portfolio/8.jpg" />
             </div>
-            <div className="column">
-              <img
-                src="https://colorlib.com/preview/theme/instylr/img/portfolio/3.jpg "
-                alt="Girl in a jacket"
-              />
+          </div>
+          <div className="column">
+            <div className="image">
+              <img src="https://colorlib.com/preview/theme/instylr/img/portfolio/3.jpg " />
             </div>
           </div>
         </div>
-      </section>
-    </body>
+      </div>
+    </section>
+
+    <style jsx>{`
+      .image:hover {
+        opacity: 0.2;
+        border: 10px solid black;
+        transition: 0.5s ease;
+      }
+    `}</style>
   </div>
 );
 export default Portfolio;
