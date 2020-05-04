@@ -4,11 +4,11 @@ const Homepage = () => (
 <div className="wrapper">
 <div className="main">
 
-<section className="hero is-large is-bold">
+<section className="hero is-medium">
   <div className="hero-body has-text-centered	">
     <div className="container">
-      <h1 className="title is-size-1 has-text-white">
-        Primary bold title
+      <h1 className="title has-text-white has-text-weight-normal">
+        Style is forever
       </h1>
       
     </div>
@@ -54,7 +54,10 @@ const Homepage = () => (
 
 }
 .title{
-  
+  margin-top:2rem;
+  font-size: 94px;
+  font-family: "helvetica 65 medium",sans-serif;
+  padding-top: 10rem;
 }
         `}</style>
 
