@@ -24,8 +24,9 @@ const Portfolio = () => (
     </section>
 
     <style jsx>{`
+      .image {
+      }
       .image:hover {
-        opacity: 0.2;
         border: 10px solid black;
         transition: 0.5s ease;
       }
