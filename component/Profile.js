@@ -19,9 +19,11 @@ const Profile =()=>(
     </div>
     <div className="title is-size-3 is-spaced" >"I firmly believe that with the right footwear one can rule the world."</div>
 
-    <p className="subtitle is-size-6  is-capitalized has-text-grey">
+    <p className="subtitle is-size-6  has-text-grey">
     Aenean quis velit pulvinar, pellentesque neque vel, laoreet orci. Suspendisse potenti. Donec congue vel justo eget malesuada. In arcu justo, sagittis consequat pulvinar quis, pretium quis massa. Vestibulum nec nibh eu nisi rutrum iaculis. Pellentesque placerat sit amet leo in vestibu-lum. Suspendisse quam neque, rutrum vel scelerisque eu
     </p>
+
+    <button className="button is-large">READ ME >></button>
   </div>
   </div>
 </div>
@@ -39,8 +41,22 @@ line-height: 1.4;
 .cover{
     padding-top: 3rem;
 }
+.button{padding: 0px 23px;
+    border: 2px solid black;
+    font-size: 19px;
+    font-variant: all-small-caps;
+    margin:20px 0px;
+    box-shadow: 7px 5px 19px 0px lavenderblush;}
+.button:hover{background-color: black;
+    color: white;}
 
-        `}</style>
+
+    img{
+        box-shadow: 7px 7px 7px 2px black;
+
+    }
+
+ `}</style>
 
 </div>
 

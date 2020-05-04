@@ -45,7 +45,7 @@ const Homepage = () => (
   animation-name: example;
   animation-duration: 5s;  
   animation-fill-mode: forwards;
-  height: 40rem;
+  height: 30rem;
 
 }
 
