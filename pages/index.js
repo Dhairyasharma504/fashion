@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Navbar from '../component/Navbar';
 import Homepage from '../component/Homepage';
+import Profile from '../component/Profile';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
 
 <Navbar/>
 <Homepage/>
+<Profile/>
       <Head>
         <title>Create Next App</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css"/>
