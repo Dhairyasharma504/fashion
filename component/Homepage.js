@@ -1,13 +1,13 @@
 const Homepage = () => (
   <div className="wrapper">
     <div className="main">
+      <div className="cover"></div>
       <section className="hero is-medium">
         <div className="hero-body has-text-centered	">
           <div className="container">
-            <h1 className="title has-text-white has-text-weight-normal is-size-1-mobile">
+            <h1 className="title has-text-white has-text-weight-normal">
               Style is forever
             </h1>
-            <button className="button is-large">READ ME >></button>
           </div>
         </div>
       </section>
@@ -17,7 +17,6 @@ const Homepage = () => (
       .main {
         animation-name: test;
         animation-duration: 6s;
-        background-size: cover;
         animation-iteration-count: infinite;
         background-image: linear-gradient(
             to bottom,
@@ -69,20 +68,17 @@ const Homepage = () => (
       }
       .title {
         margin-top: 2rem;
-        font-size: 114px;
+        font-size: 94px;
         font-family: 'helvetica 65 medium', sans-serif;
         padding-top: 10rem;
       }
-      .button {
-        border: 3px solid white;
-        color: white;
-        font-variant: all-small-caps;
-        margin: 10px 0px;
-        background-color: transparent;
-      }
-      .button:hover {
-        background-color: black;
-        color: white;
+
+      .cover {
+        background-color: white;
+        margin: 349px 0px 0pxpx 0px;
+        padding: 385px 48px 140px 38px;
+        position: absolute;
+        margin-top: 294px;
       }
     `}</style>
   </div>

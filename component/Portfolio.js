@@ -2,21 +2,36 @@ const Portfolio = () => (
   <div className="wrapper">
     <section className="section">
       <div className="container">
-        <div className="columns">
-          <div className="column">
+        <div className="columns is-multiline is-mobile">
+          <div className="column is-one-third">
             <div className="image ">
               <img src="https://colorlib.com/preview/theme/instylr/img/portfolio/1.jpg" />
             </div>
           </div>
 
-          <div className="column">
+          <div className="column is-one-third">
             <div className="image ">
               <img src="https://colorlib.com/preview/theme/instylr/img/portfolio/8.jpg" />
             </div>
           </div>
-          <div className="column">
+          <div className="column is-one-third">
             <div className="image">
               <img src="https://colorlib.com/preview/theme/instylr/img/portfolio/3.jpg " />
+            </div>
+          </div>
+          <div className="column ">
+            <div className="image">
+              <img src="https://colorlib.com/preview/theme/instylr/img/portfolio/4.jpg " />
+            </div>
+          </div>
+          <div className="column ">
+            <div className="image">
+              <img src="https://colorlib.com/preview/theme/instylr/img/portfolio/5.jpg " />
+            </div>
+          </div>
+          <div className="column">
+            <div className="image">
+              <img src="https://colorlib.com/preview/theme/instylr/img/portfolio/6.jpg " />
             </div>
           </div>
         </div>
