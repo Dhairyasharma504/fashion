@@ -1,20 +1,38 @@
 const Homepage = () => (
   <div className="wrapper">
-    <div className="main">
-      <div className="cover"></div>
-      <section className="hero is-medium">
-        <div className="hero-body has-text-centered	">
-          <div className="container">
-            <h1 className="title has-text-white has-text-weight-normal">
+    <section className="section">
+      <div className="columns">
+        <div className="column cover is-1 ">
+          <div className="cover1">
+            <span>
+              <i className="fab fa-amazon"></i>
+            </span>{' '}
+            <span>
+              <i className="fab fa-facebook"></i>
+            </span>
+            <span>
+              <i className="fab fa-angrycreative"></i>
+            </span>
+            <span>
+              <i className="fab fa-angellist"></i>
+            </span>
+            <div className="subtitle is-size-7 has-text-gray is-uppercase has-text-weight-semibold is-spaced">
+              FOLLOW US
+            </div>
+          </div>
+        </div>
+        <div className="column">
+          <div className="container has-text-centered">
+            <h1 className="title has-text-white has-text-weight-normal ">
               Style is forever
             </h1>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
 
     <style jsx>{`
-      .main {
+      .section {
         animation-name: test;
         animation-duration: 6s;
         animation-iteration-count: infinite;
@@ -54,7 +72,7 @@ const Homepage = () => (
         animation-name: example;
         animation-duration: 5s;
         animation-fill-mode: forwards;
-        height: 31rem;
+        height: 40rem;
       }
 
       @keyframes example {
@@ -72,13 +90,17 @@ const Homepage = () => (
         font-family: 'helvetica 65 medium', sans-serif;
         padding-top: 10rem;
       }
-
+      .cover1 {
+        display: inline-grid;
+      }
       .cover {
         background-color: white;
-        margin: 349px 0px 0pxpx 0px;
-        padding: 385px 48px 140px 38px;
         position: absolute;
-        margin-top: 294px;
+        padding: 62px 38px 137px 17px;
+        margin: 21rem 0rem 0rem -1rem;
+      }
+      span {
+        padding: 16px;
       }
     `}</style>
   </div>
