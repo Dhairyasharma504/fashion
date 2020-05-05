@@ -2,7 +2,7 @@ const Homepage = () => (
   <div className="wrapper">
     <section className="section">
       <div className="columns">
-        <div className="column cover is-1 ">
+        <div className="column cover is-1 is-hidden-touch">
           <div className="cover1">
             <span>
               <i className="fab fa-amazon"></i>
@@ -26,6 +26,8 @@ const Homepage = () => (
             <h1 className="title has-text-white has-text-weight-normal ">
               Style is forever
             </h1>
+
+            <button className="button is-large">READ ME >></button>
           </div>
         </div>
       </div>
@@ -45,6 +47,7 @@ const Homepage = () => (
 
         background-repeat: no-repeat;
         background-position: center top;
+        height: 43rem;
       }
 
       @keyframes test {
@@ -72,7 +75,6 @@ const Homepage = () => (
         animation-name: example;
         animation-duration: 5s;
         animation-fill-mode: forwards;
-        height: 40rem;
       }
 
       @keyframes example {
@@ -85,10 +87,10 @@ const Homepage = () => (
         }
       }
       .title {
-        margin-top: 2rem;
-        font-size: 94px;
+        margin-top: 8rem;
+        font-size: 110px;
         font-family: 'helvetica 65 medium', sans-serif;
-        padding-top: 10rem;
+        padding-top: 11rem;
       }
       .cover1 {
         display: inline-grid;
@@ -101,6 +103,18 @@ const Homepage = () => (
       }
       span {
         padding: 16px;
+      }
+      .button {
+        border: 2px solid white;
+        background-color: transparent;
+        font-size: 19px;
+        color: white;
+        font-variant: all-small-caps;
+      }
+      .button:hover {
+        color: white;
+        background-color: black;
+        border: 2px solid white;
       }
     `}</style>
   </div>
