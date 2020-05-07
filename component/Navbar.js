@@ -55,7 +55,7 @@ const Navbar = () => (
         padding-left: 25px;
       }
       .navbar {
-        padding: 0.6rem;
+        padding: 0.7rem;
       }
     `}</style>
   </div>
