@@ -47,7 +47,7 @@ const Homepage = () => (
 
         background-repeat: no-repeat;
         background-position: center top;
-        height: 43rem;
+        height: 42rem;
       }
 
       @keyframes test {
