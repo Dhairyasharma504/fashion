@@ -23,7 +23,7 @@ const Homepage = () => (
         </div>
         <div className="column">
           <div className="container has-text-centered">
-            <h1 className="title has-text-white has-text-weight-normal ">
+            <h1 className="title has-text-white has-text-weight-normal is-size-1-mobile ">
               Style is forever
             </h1>
 

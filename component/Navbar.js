@@ -40,6 +40,18 @@ const Navbar = () => (
             <a className="navbar-item has-text-white is-uppercase has-text-weight-semibold">
               Shop
             </a>
+            <a className="navbar-item has-text-white is-uppercase has-text-weight-semibold">
+              <i className="fab fa-angrycreative"></i>
+            </a>
+            <a className="navbar-item has-text-white is-uppercase has-text-weight-semibold">
+              <i className="fab fa-angrycreative"></i>
+            </a>
+            <a className="navbar-item has-text-white is-uppercase has-text-weight-semibold">
+              <i className="fab fa-angrycreative"></i>
+            </a>
+            <a className="navbar-item has-text-white is-uppercase has-text-weight-semibold">
+              <i className="fab fa-angrycreative"></i>
+            </a>
           </div>
         </div>
       </div>
