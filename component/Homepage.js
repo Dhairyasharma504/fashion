@@ -4,7 +4,7 @@ const Homepage = () => (
       <div className="columns">
         <div className="column cover is-1">
           <div className="subtitle is-size-7 has-text-gray is-uppercase has-text-weight-semibold">
-            FOLLOW US
+            FOLLOW US ON SOCIAL MEDIA
           </div>
           <div className="icon1">
             <div className="icon has-text-black">
@@ -12,6 +12,10 @@ const Homepage = () => (
             </div>
             <div className="icon has-text-black">
               <i className="fab fa-twitter "></i>
+            </div>
+
+            <div className="icon has-text-black">
+              <i className="fab fa-facebook-f "></i>
             </div>
             <div className="icon has-text-black">
               <i className="fab fa-facebook-f "></i>
@@ -97,8 +101,10 @@ const Homepage = () => (
         background: #fff;
         transform: rotate(-90deg);
         -webkit-transform-origin: left top;
-        margin-top: 40rem;
-        width: 21rem;
+        margin-top: 42rem;
+        width: 26rem;
+        padding-top: 20px;
+        padding-bottom: 20px;
       }
 
       .button {
@@ -114,11 +120,13 @@ const Homepage = () => (
         border: 2px solid white;
       }
       .icon {
-        padding: 10px 41px 35px 41px;
+        padding: 0px 11px 23px 36px;
+        display: inline-table;
       }
 
       .icon1 {
-        margin-left: 58px;
+        margin-left: 147px;
+        display: flex;
         margin-top: -41px;
       }
     `}</style>
