@@ -18,7 +18,7 @@ const Homepage = () => (
               <i className="fab fa-facebook-f "></i>
             </div>
             <div className="icon has-text-black">
-              <i className="fab fa-facebook-f "></i>
+              <i className="fab fa-behance"></i>
             </div>
           </div>
         </div>
@@ -127,6 +127,7 @@ const Homepage = () => (
       .icon1 {
         margin-left: 147px;
         display: flex;
+
         margin-top: -41px;
       }
     `}</style>
