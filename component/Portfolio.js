@@ -41,6 +41,7 @@ const Portfolio = () => (
     <style jsx>{`
       .image {
         border: 10px solid white;
+        border: 10px solid white;
       }
       .image:hover {
         opacity: 0.5;
