@@ -19,17 +19,32 @@ const Portfolio = () => (
               <img src="https://colorlib.com/preview/theme/instylr/img/portfolio/3.jpg " />
             </div>
           </div>
-          <div className="column ">
+          <div className="column is-4">
             <div className="image">
               <img src="https://colorlib.com/preview/theme/instylr/img/portfolio/4.jpg " />
             </div>
           </div>
-          <div className="column ">
+          <div className="column is-4">
             <div className="image">
               <img src="https://colorlib.com/preview/theme/instylr/img/portfolio/5.jpg " />
             </div>
           </div>
-          <div className="column">
+          <div className="column is-4">
+            <div className="image">
+              <img src="https://colorlib.com/preview/theme/instylr/img/portfolio/6.jpg " />
+            </div>
+          </div>
+          <div className="column is-4 ">
+            <div className="image">
+              <img src="https://colorlib.com/preview/theme/instylr/img/portfolio/4.jpg " />
+            </div>
+          </div>
+          <div className="column is-4 ">
+            <div className="image">
+              <img src="https://colorlib.com/preview/theme/instylr/img/portfolio/5.jpg " />
+            </div>
+          </div>
+          <div className="column is-4">
             <div className="image">
               <img src="https://colorlib.com/preview/theme/instylr/img/portfolio/6.jpg " />
             </div>

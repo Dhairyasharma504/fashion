@@ -2,22 +2,19 @@ const Homepage = () => (
   <div className="wrapper">
     <section className="section">
       <div className="columns">
-        <div className="column cover is-1 is-hidden-touch">
-          <div className="cover1">
-            <span>
-              <i className="fab fa-amazon"></i>
-            </span>{' '}
-            <span>
-              <i className="fab fa-facebook"></i>
-            </span>
-            <span>
-              <i className="fab fa-angrycreative"></i>
-            </span>
-            <span>
-              <i className="fab fa-angellist"></i>
-            </span>
-            <div className="subtitle is-size-7 has-text-gray is-uppercase has-text-weight-semibold is-spaced">
-              FOLLOW US
+        <div className="column cover is-1">
+          <div className="subtitle is-size-7 has-text-gray is-uppercase has-text-weight-semibold">
+            FOLLOW US
+          </div>
+          <div className="icon1">
+            <div className="icon has-text-black">
+              <i className="fab fa-pinterest "></i>
+            </div>
+            <div className="icon has-text-black">
+              <i className="fab fa-twitter "></i>
+            </div>
+            <div className="icon has-text-black">
+              <i className="fab fa-facebook-f "></i>
             </div>
           </div>
         </div>
@@ -93,17 +90,17 @@ const Homepage = () => (
         padding-top: 11rem;
       }
       .cover1 {
-        display: inline-grid;
       }
       .cover {
-        background-color: white;
         position: absolute;
-        padding: 62px 38px 137px 17px;
-        margin: 21rem 0rem 0rem -1rem;
+        left: 0;
+        background: #fff;
+        transform: rotate(-90deg);
+        -webkit-transform-origin: left top;
+        margin-top: 40rem;
+        width: 21rem;
       }
-      span {
-        padding: 16px;
-      }
+
       .button {
         border: 2px solid white;
         background-color: transparent;
@@ -115,6 +112,14 @@ const Homepage = () => (
         color: white;
         background-color: black;
         border: 2px solid white;
+      }
+      .icon {
+        padding: 10px 41px 35px 41px;
+      }
+
+      .icon1 {
+        margin-left: 58px;
+        margin-top: -41px;
       }
     `}</style>
   </div>
