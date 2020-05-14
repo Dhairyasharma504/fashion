@@ -61,7 +61,7 @@ const Navbar = () => (
       .navbar-item {
         font-family: 'helvetica 65 medium', sans-serif;
         font-size: 14px;
-        padding-right: 25px;
+        padding-right: 23px;
         padding-left: 25px;
       }
       .navbar {
