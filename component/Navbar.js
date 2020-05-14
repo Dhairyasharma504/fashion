@@ -62,7 +62,7 @@ const Navbar = () => (
         font-family: 'helvetica 65 medium', sans-serif;
         font-size: 14px;
         padding-right: 24px;
-        padding-left: 23px;
+        padding-left: 24px;
       }
       .navbar {
         padding: 0.7rem;
